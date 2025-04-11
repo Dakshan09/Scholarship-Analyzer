@@ -1,15 +1,44 @@
-# Scholarship Eligibility Analyzer
+🎓 Scholarship Eligibility Analyzer
+A smart tool to help students quickly assess their eligibility for various scholarships based on academic records, demographic information, and personal achievements.
 
-This Streamlit app evaluates students' eligibility for scholarships using Google Generative AI (Gemini-Pro).
+✨ Features
+🔍 Analyze user input to match relevant scholarships
 
-## Setup
+🧠 AI-powered eligibility prediction (optional ML model integration)
 
-1. Add your Google API key to `.streamlit/secrets.toml` (for local testing), or set it as an environment variable `GOOGLE_API_KEY` (for Hugging Face Spaces).
-2. Install requirements:
-```
-pip install -r requirements.txt
-```
-3. Run the app:
-```
-streamlit run app.py
-```
+📋 User-friendly interface for inputting academic and personal details
+
+📊 Visual summary of matching scholarships and eligibility status
+
+🌐 Easily deployable via Streamlit or Flask
+
+📌 Use Cases
+Students looking to filter scholarship options efficiently
+
+Institutions assisting applicants with eligibility screening
+
+Developers integrating eligibility logic into student portals
+
+🛠️ Technologies Used
+Python
+
+Pandas & NumPy for data processing
+
+Scikit-learn (optional) for eligibility prediction
+
+Streamlit or Flask for the frontend
+
+JSON/CSV for scholarship database
+🧪 Sample Input
+GPA: 3.8
+
+Family Income: $30,000
+
+Extra-curricular: Yes
+
+Category: First-generation college student
+
+📈 Output
+✅ Eligible: XYZ Need-Based Scholarship
+
+❌ Not Eligible: ABC Merit-Based Award (Minimum GPA: 4.0)
